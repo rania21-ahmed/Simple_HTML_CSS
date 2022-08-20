@@ -1,0 +1,153 @@
+
+.container
+{
+    width:1170px;
+    margin:auto
+}
+/* start header*/
+.header
+{
+    overflow: hidden
+}
+.header .nav
+ {
+    background-color: rgb(236, 233, 233);
+    overflow:hidden
+}
+.header .nav p
+{
+    display:inline-block;
+    color:#333;
+    font-size:15px;
+    padding:0 0 0 15px
+}
+.header .nav ul
+{
+    float:right;
+    list-style:none;
+}
+.header .nav ul li 
+{
+    display:inline-block;
+    overflow:hidden;
+    margin:0 0 0 15px;
+    color:#333
+}
+.header .nav ul li form 
+{
+    margin:0 20px 0 0
+}
+.header .nav ul li:lest-of-type
+{
+    margin-top: 0
+}
+.header .nav ul li form input[type="submit"]
+{
+    border:1px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+    overflow:hidden;
+    padding:0 10px 
+   
+}
+.header .slider_text
+{
+    
+    overflow: hidden;
+    padding:25px 
+}
+.header .slider_text .text 
+{
+    width:50%;
+    float:left;
+    color:#333;
+    margin-right:5px;
+    margin:100px 0 
+}
+.header .slider_text .amag
+{
+    width:40%;
+    float:left;
+}
+.header .slider_text .amag img
+{
+   width:100%;
+   margin:10px 0
+}
+/* end header*/
+
+/* start contact me*/
+.contact_me
+{
+    overflow:hidden;
+
+    background-color: rgb(236, 233, 233);
+    padding:20px 0 ;
+   
+}
+.contact_me .button 
+{
+    float:left;
+    width:50%;
+    margin:25px 0 20px 10%
+}
+.contact_me .button button
+{
+    border-radius:20px;
+    padding:10px 20px;
+    background-color:none;
+    border:2px solid #333
+}
+.contact_me .text 
+{
+    float:left;
+    width:40%
+}
+.contact_me .text h3
+{
+    color:#333;
+    font-size:30px
+}
+/* end contact me*/
+
+/* start my work*/
+.my_work 
+{
+    overflow:hidden
+}
+.my_work h1
+{
+    text-align: center;
+    margin:30px 0;
+    color:#333
+}
+.my_work .work
+{
+    float:left;
+    width:30.3333%;
+    overflow:hidden;
+
+}
+.my_work .work img 
+{
+    border-radius:250px ;
+    overflow:hidden;
+    width:85%;
+    margin:0 0 0 50px
+   
+}
+.my_work .work h3
+{
+    color:#222;
+    font-size:20px;
+    margin-left:30px;
+    text-align: center
+}
+.my_work .work p
+{
+    color:#333;
+    line-height:1.5;
+    margin-left:30px;
+    text-align: center
+}
+/* end my work*/
